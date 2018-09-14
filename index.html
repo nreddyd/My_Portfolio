@@ -6,17 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Neeraja</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css" />
-    <script src="assets/javascript/main.js"></script>
 </head>
 
 <body>
-    <div id="intro">
-        <h1> Neeraja</h1>
-        <h1> Full Stack Web Developer</h1>
-        <img src="https://placehold.it/200x200" alt="Your Name">
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img id="profile_img" src="assets/images/Neeraja.jpeg">
+                <h3 id="name">Neeraja Reddy</h3>
+            </div>
+
+            <div>
+                <p id="sidebar-info">Full Stack Web Developer</p>
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                <br>
+                <br>
+
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Portfolio</a>
+                <br>
+                <br>
+
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">SkillSet</a>
+                <br>
+                <br>
+
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Contact</a>
+                <br>
+                <br>
+
+        </nav>
+
+        <!-- Page Content -->
+        <div id="content">
+            <div id="content">
+                <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light"> -->
+                <div class="container-fluid" id="home">
+
+                    <!-- <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i> -->
+                    <span><i id="sidebarCollapse" class="fas fa-angle-double-left"></i></span>
+                    </button>
+
+
+                </div>
+                </nav>
+            </div>
+        </div>
+
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/main.js"></script>
 
 
 </body>
