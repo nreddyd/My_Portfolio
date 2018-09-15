@@ -39,9 +39,22 @@ a[data-toggle="collapse"] {
 #name {
   margin: 0 auto;
   padding: 25px;
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
 }
 a {
   margin: 90px;
+}
+
+#intro {
+  margin: 0 auto;
+  max-width: 100%;
+  margin-top: 150px;
+  padding: 150px;
+  font-size: 28px;
+  color: #001a00;
+  font-family: "Alegreya Sans", sans-serif;
+  text-align: center;
 }
 
 body {
