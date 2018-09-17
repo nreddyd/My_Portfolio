@@ -1,8 +1,7 @@
 #contactform {
   margin: 0 auto;
   max-width: 100%;
-  /* margin-top: 30px; */
-  font-size: 22px;
+  font-size: 20px;
   color: #001a00;
   font-family: "Times New Roman", Times, serif;
 }
@@ -14,6 +13,12 @@
   padding: 5px;
 }
 
-.btn {
+.btn,
+#contactpage {
   padding: 10px 30px 10px 30px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
 }
