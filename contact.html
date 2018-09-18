@@ -60,11 +60,11 @@
                         <form id="contactform">
                             <div class="form-group">
                                 <label for="username">Name</label>
-                                <input type="text" class="form-control" id="username">
+                                <input type="text" class="form-control" id="username" required>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control" id="email">
+                                <input type="email" class="form-control" id="email" required>
                             </div>
                             <div class="form-group">
                                 <label for="phone">Phone</label>
@@ -72,9 +72,9 @@
                             </div>
                             <div class="form-group">
                                 <label for="message">Message</label>
-                                <textarea class="form-control" id="message" rows="3"></textarea>
+                                <textarea class="form-control" id="message" rows="3" required></textarea>
                             </div>
-                            <button type="submit" class="submit btn btn-primary">Submit</button>
+                            <button type="submit" class="submit btn btn-primary" id="submit">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -95,7 +95,7 @@
                     </div>
                     <div class="col-lg-2">
 
-                        <a href="https://www.linkedin.com/in/neeraja-desa-77900b163/">
+                        <a href="www.linkedin.com/in/neeraja-desa">
                             <img class="link-icon" src="assets/images/contact/linkedin.png">LinkedIn
                         </a>
                     </div>
@@ -117,6 +117,7 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
     <script src="assets/javascript/main.js"></script>
 
 
