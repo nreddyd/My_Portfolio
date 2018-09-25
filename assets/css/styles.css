@@ -78,6 +78,10 @@ a {
   font-size: 20px;
 }
 
+#sidebarCollapse {
+  position: fixed;
+}
+
 #intro {
   margin: 0 auto;
   max-width: 100%;
