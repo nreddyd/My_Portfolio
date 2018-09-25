@@ -118,8 +118,8 @@ body {
   #profile_img {
     border-radius: 40%;
     margin: 0 auto;
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
   }
   #content {
     margin-left: 200px;
@@ -135,26 +135,32 @@ body {
 @media (max-width: 576px) {
   #sidebar {
     position: fixed;
-    min-width: 180px;
-    max-width: 100px;
+    min-width: 120px;
+    max-width: 120px;
   }
   #sidebar.active {
     position: relative;
-    margin-left: -180px;
+    margin-left: -120px;
   }
   #profile_img {
     border-radius: 40%;
     margin: 0 auto;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
   }
   #content {
-    margin-left: 180px;
+    margin-left: 120px;
   }
   #content.active {
     margin: 0 auto;
   }
   #intro {
-    font-size: 16px;
+    font-size: 20px;
+  }
+  #name {
+    margin: 0 auto;
+    padding: 5px;
+    font-family: "Sacramento", cursive;
+    font-size: 20px;
   }
 }

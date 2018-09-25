@@ -1,6 +1,6 @@
 #skillset {
-  width: 150px;
-  height: 150px;
+  /* width: 150px;
+  height: 150px; */
   padding: 10px;
 }
 
@@ -14,3 +14,12 @@ h2 {
 /* #content {
   padding: 30px;
 } */
+
+@media (max-width: 768px) {
+  /* width: 100px;
+  height: 100px; */
+  padding: 10px;
+}
+
+@media (max-width: 576px) {
+}
